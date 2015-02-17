@@ -46,7 +46,7 @@ angular.module('githubIssuesApp', ['ionic', 'ngCordova'])
       if(toState.data.authenticate && !userService.isLoggedIn()){
         event.preventDefault();
         $state.transitionTo('signin');
-      }      
+      }
     }
   );
 })
@@ -63,11 +63,6 @@ angular.module('githubIssuesApp', ['ionic', 'ngCordova'])
  */
 .controller('signInCtrl', ['$scope', 'userService', function($scope, userService){
   $scope.signIn = userService.login;
-}])
-
-.controller('redirectCtrl', ['$rootScope', '$state', function($rootScope, $state){
-  console.log($rootScope.user);
-  $state.go('home');
 }])
 
 /**
