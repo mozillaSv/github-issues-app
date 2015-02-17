@@ -1,0 +1,22 @@
+{
+    "launch_path": "/index.html",
+    "installs_allowed_from": [
+        "*"
+    ],
+    "version": "0.0.1",
+    "name": "github-issues",
+    "description": "An app for manage your issues at github",
+    "developer": {
+        "name": "Mozilla El Salvador",
+        "url": "http://carloscarcamo.me"
+    },
+    "icons": {
+        "60": "/icon/icon-60.png",
+        "128": "/icon/icon-128.png"
+    },
+    "redirects":[{
+      "from":"http://localhost/callback",
+      "to":"/index.html"
+    }]
+
+}

@@ -1,0 +1,24 @@
+<ion-view view-title="Login">
+  <ion-header-bar class="ba bar-header bar-positive">
+  <h1 class="title">github issues Signin</h1>
+  </ion-header-bar>
+  <ion-content ng-controller="signInCtrl">
+    <div class="list">
+      <label class="item item-input">
+        <span class="input-label">Username</span>
+        <input type="text" ng-model="username">
+      </label>
+      <label class="item item-input">
+        <span class="input-label">Password</span>
+        <input type="password" ng-model="pass">
+      </label>
+      <div class="row">
+        <div class="col">
+          <button class="button button-positive button-block" ng-click="signIn()">
+            Sign in
+          </button>
+        </div>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>
