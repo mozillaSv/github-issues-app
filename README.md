@@ -1,4 +1,4 @@
-github issuess firefox os app
+github issues firefox os app
 =============================
 An issues manage app for firefox os.
 
